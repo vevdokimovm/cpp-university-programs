@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510249683 source:c:\users\home\documents\codeblocks - projects\functions\lowest divisor\main.cpp
+	<iostream>
+	<cmath>
+

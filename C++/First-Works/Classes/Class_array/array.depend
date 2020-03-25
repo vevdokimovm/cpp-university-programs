@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1523686204 source:c:\users\arm0059\desktop\1.61\main.cpp
+	<iostream>
+
+1524313669 source:c:\users\home\documents\programming_projects\c++\classes\class_array\main.cpp
+	<iostream>
+	<cmath>
+	<array_.h>
+
+1525629717 c:\users\home\documents\programming_projects\c++\classes\class_array\include\array_.h
+	<string>
+	<iostream>
+
+1525627323 source:c:\users\home\documents\programming_projects\c++\classes\class_array\src\array_.cpp
+	"array_.h"
+	<iostream>
+	<cmath>
+

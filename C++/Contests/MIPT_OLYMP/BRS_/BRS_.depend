@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1528539051 source:c:\users\home\documents\programming_projects\c++\mipt_olymp\brs_\main.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<algorithm>
+	<climits>
+

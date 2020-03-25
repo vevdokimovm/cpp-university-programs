@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1532960763 source:c:\users\home\desktop\draft2\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<typeinfo>
+	<type_traits>
+	<cstdlib>
+

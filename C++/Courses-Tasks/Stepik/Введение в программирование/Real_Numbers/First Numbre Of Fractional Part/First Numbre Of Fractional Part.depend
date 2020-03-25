@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508606032 source:c:\users\home\documents\codeblocks - projects\real numbers\first numbre of fractional part\main.cpp
+	<iostream>
+	<cmath>
+

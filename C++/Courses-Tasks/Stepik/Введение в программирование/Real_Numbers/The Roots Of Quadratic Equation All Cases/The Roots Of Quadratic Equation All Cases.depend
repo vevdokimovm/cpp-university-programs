@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1508777184 source:c:\users\home\documents\codeblocks - projects\real numbers\quadratic equation\main.cpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+
+1508777184 source:c:\users\home\documents\codeblocks - projects\real numbers\the roots of quadratic equation all cases\main.cpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+

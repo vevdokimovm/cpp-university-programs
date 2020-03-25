@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1512246817 source:c:\users\home\documents\programming_projects\c++\preparation_for_olimpiad\Задача№112810.Контрольная работа\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	<utility>
+

@@ -1,0 +1,46 @@
+#lang racket
+
+(define (gcd-terms a b)
+  (if (empty-termlist? b)
+      a
+      (gcd-terms b (remainder-terms a b))))
+
+(define (remainder-terms a b)
+  (cadr (div-terms a b)))
+
+(define (gcd-polys p1 p2)
+  (if (same-variable? (variable p1) (variable p2))
+      (make-pole (variable p1)
+                 (gcd-terms (term-list p1)
+                            (term-list p2)))
+      (error "Многочлены от разных переменных -- GCD-POLYS" (list p1 p2))))
+
+(put 'greatest-common-divisor '(polynomial polynomial)
+     (lambda (a b) (tag (gcd-polys a b))))
+(put 'greatest-common-divisor '(scheme-number scheme-number)
+     (lambda (a b) (gcd a b)))
+
+(define (div-poly p1 p2)
+  (if (same-variable? (variable p1) (variable p2))
+      (make-poly (variable p1)
+                 (div-terms (term-list p1)
+                            (term-list p2)))
+      (error "Многочлены от разных переменных -- DIV-POLY"
+             (list p1 p2))))
+
+(define (div-terms L1 L2)
+  (if (empty-termlist? L1)
+      (list (the-empty-temlist) (the-empty-termlist))
+      (let ((t1 (first-term L1))
+            (t2 (first-term L2)))
+        (if (> (order t2) (order t1))
+            (list (the-empty-termlist) L1)
+            (let ((new-c (div (coeff t1) (coeff t2)))
+                  (new-o (- (order t1) (order t2))))
+              (let ((rest-of-result
+                     (div-terms (sub-terms L1
+                                           (mul-terms (make-term new-o new-c) L2))
+                                L2)))
+                (list (adjoin-term (make-term new-o new-c)
+                                   (car rest-of-result))
+                      (cadr rest-of-result))))))))

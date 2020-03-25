@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511113913 source:c:\users\home\documents\programming_projects\c++\stepik_course\strings_and_type_char(character)\Палиндром\main.cpp
+	<iostream>
+	<string>
+	<cstdio>
+

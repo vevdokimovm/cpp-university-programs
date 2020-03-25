@@ -1,0 +1,63 @@
+#lang sicp
+(#%require sicp-pict)
+
+
+
+(define edges
+  (segments->painter (list (make-segment (make-vect 0.0 0.0)
+                                         (make-vect 0.0 1.0))
+                           (make-segment (make-vect 0.0 1.0)
+                                         (make-vect 1.0 1.0))
+                           (make-segment (make-vect 1.0 1.0)
+                                         (make-vect 1.0 0.0))
+                           (make-segment (make-vect 1.0 0.0)
+                                         (make-vect 0.0 0.0)))))
+
+(define X
+  (segments->painter (list (make-segment (make-vect 0 0)
+                                         (make-vect 1 1))
+                           (make-segment (make-vect 0 1)
+                                         (make-vect 1 0)))))
+
+(define diamond
+  (segments->painter (list (make-segment (make-vect 0.5 0)
+                                         (make-vect 0 0.5))
+                           (make-segment (make-vect 0 0.5)
+                                         (make-vect 0.5 1))
+                           (make-segment (make-vect 0.5 1)
+                                         (make-vect 1 0.5))
+                           (make-segment (make-vect 1 0.5)
+                                         (make-vect 0.5 0)))))
+
+(define (polyline vectors)
+  (if (null? (cdr vectors))
+      nil
+      (cons (make-segment (car vectors)
+                          (cadr vectors))
+            (polyline (cdr vectors)))))
+
+
+(define wave
+  (segments->painter
+   (append (polyline (list (make-vect 0 0.87)
+                           (make-vect 0.13 (/ 5.5 8))
+                           (make-vect 0.25 0.75)
+                           (make-vect (/ 3 8) 0.75)
+                           (make-vect (/ 2.6 8) (/ 7.6 8))
+                           (make-vect (/ 3 8) 1)))
+           (polyline (list (make-vect (/ 5 8) 1)
+                           (make-vect (/ 5.4 8) (/ 7.6 8))
+                           (make-vect (/ 5 8) 0.75)
+                           (make-vect 0.75 0.75)
+                           (make-vect 1 (/ 3.5 8))))
+           (polyline (list (make-vect 1 0.25)
+                           (make-vect (/ 5 8) 0.5)
+                           (make-vect 0.75 0)))
+           (polyline (list (make-vect (/ 4.6 8) 0)
+                           (make-vect 0.5 0.25)
+                           (make-vect (/ 3.4 8) 0)))
+           (polyline (list (make-vect 0.25 0)
+                           (make-vect (/ 3 8) 0.5)
+                           (make-vect (/ 2.15 8) (/ 5 8))
+                           (make-vect (/ 1 8) (/ 3 8))
+                           (make-vect 0 (/ 5 8)))))))

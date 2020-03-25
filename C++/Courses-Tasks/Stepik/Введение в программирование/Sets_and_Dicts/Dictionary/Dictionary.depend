@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511378647 source:c:\users\home\documents\programming_projects\c++\stepik_course\sets_and_dicts\dictionary\main.cpp
+	<iostream>
+	<map>
+	<string>
+

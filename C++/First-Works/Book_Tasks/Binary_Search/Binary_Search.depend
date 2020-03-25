@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1510498100 source:c:\users\home\documents\c++\book_tasks\binary_search\main.cpp
+	<iostream>
+	<vector>
+
+1510498100 source:c:\users\home\documents\programming_projects\c++\book_tasks\binary_search\main.cpp
+	<iostream>
+	<vector>
+

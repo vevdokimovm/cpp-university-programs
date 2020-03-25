@@ -1,0 +1,20 @@
+#lang racket
+
+
+(define (reduce-terms n d)
+  (let* ((g-term (gcd-terms n d))
+         (c (coeff (first-term g)))
+         (o1 (max (order (first-term n))
+                  (order (first-term d))))
+         (o2 (order (first-term g)))
+         (m (expt c (+ 1 o1 (- o2))))
+         (nn (div-terms n g-term))
+         (dd (div-terms d g-term))
+         (coeff-list (append (map (lambda (term) (coeff term)) nn)
+                             (map (lambda (term) (coeff term)) dd)))
+         (g (gcd-list coeff-list))
+         (nnn (map (lambda (term) (make-term (order term)
+                                             (/ (coeff term) g))) nn))
+         (ddd (map (lambda (term) (make-term (order term)
+                                             (/ (coeff term) g))) dd)))
+    (list nnn ddd)))

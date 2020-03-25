@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510758420 source:c:\users\home\documents\c++\book_tasks\sum_of_elements\main.cpp
+	<iostream>
+	<vector>
+

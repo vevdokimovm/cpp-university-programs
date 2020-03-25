@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510072036 source:c:\users\home\documents\codeblocks - projects\real numbers\deposit for n years\main.cpp
+	<iostream>
+	<cmath>
+

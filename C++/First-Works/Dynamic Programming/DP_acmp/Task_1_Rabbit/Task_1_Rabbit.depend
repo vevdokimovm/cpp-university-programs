@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1533647594 source:c:\users\home\documents\programming_projects\c++\dp_acmp\task_1_rabbit\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+

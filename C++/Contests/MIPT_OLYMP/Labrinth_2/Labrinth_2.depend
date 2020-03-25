@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1528286258 source:c:\users\home\documents\programming_projects\c++\mipt_olymp\labrinth_2\main.cpp
+	<iostream>
+	<queue>
+

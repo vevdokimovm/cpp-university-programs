@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1513184370 source:c:\users\home\documents\programming_projects\c++\foxford_course\lesson_3\task_3\main.cpp
+	<cstdio>
+	<iostream>
+

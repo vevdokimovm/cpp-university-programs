@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1510754369 source:c:\users\home\documents\programming_projects\c++\book_tasks\Сортировка_Выбором\main.cpp
+	<iostream>
+	<vector>
+	<iterator>
+

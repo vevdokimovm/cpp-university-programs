@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512290886 source:c:\users\home\documents\programming_projects\c++\preparation_for_olimpiad\5678\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+

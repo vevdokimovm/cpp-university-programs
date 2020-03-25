@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510162172 source:c:\users\home\documents\codeblocks - projects\functions\Принадлежит ли точка квадрату\main.cpp
+	<iostream>
+	<cmath>
+

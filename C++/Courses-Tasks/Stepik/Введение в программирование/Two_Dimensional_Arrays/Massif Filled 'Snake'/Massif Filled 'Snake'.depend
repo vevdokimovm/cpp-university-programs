@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509639896 source:c:\users\home\documents\codeblocks - projects\two - dimensional massifs\massif filled 'snake'\main.cpp
+	<iostream>
+	<iomanip>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518194401 source:c:\users\home\documents\programming_projects\c++\mos_olymp\chaos\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

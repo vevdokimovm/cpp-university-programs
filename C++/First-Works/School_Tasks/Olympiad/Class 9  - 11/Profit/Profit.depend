@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1509969074 source:c:\users\home\documents\codeblocks - projects\while - loop\profit\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+
+1509970016 source:c:\users\home\documents\codeblocks - projects\olympiad\class 9  - 11\profit\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+

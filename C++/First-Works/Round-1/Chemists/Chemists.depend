@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1527440447 source:c:\users\home\desktop\draft\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<utility>
+
+1527440447 source:c:\users\home\documents\programming_projects\c++\codeforces\chemists\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<utility>
+

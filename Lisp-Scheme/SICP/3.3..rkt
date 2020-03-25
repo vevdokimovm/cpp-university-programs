@@ -1,0 +1,20 @@
+#lang racket
+
+(define (make-account balance password)
+  (define (withdraw amount)
+    (if (>= balance amount)
+        (begin (set! balance (- balance amount))
+               balance)
+        "Недостаточно средств на счёте"))
+  (define (deposit amount)
+    (set! balance (+ balance amount))
+    balance)
+  (define (dispatch pas op)
+    (if (eq? pas password)
+        (cond ((eq? op 'withdraw) withdraw)
+              ((eq? op 'deposit) deposit)
+              (else (lambda (x) "Такой операции не существует")))
+        (lambda (x) "Неправильный пароль")))
+  dispatch)
+
+(define acc (make-account 100 'secret-password))

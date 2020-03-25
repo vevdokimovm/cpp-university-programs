@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511451864 source:c:\users\home\documents\programming_projects\c++\stepik_course\algorithmsstl\sort\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+

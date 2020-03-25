@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518339586 source:c:\users\home\documents\programming_projects\c++\mos_olymp\strange_multiplication\main.cpp
+	<iostream>
+	<vector>
+	<array>
+

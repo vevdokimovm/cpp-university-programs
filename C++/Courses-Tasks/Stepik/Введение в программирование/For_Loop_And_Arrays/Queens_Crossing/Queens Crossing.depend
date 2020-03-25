@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1509370370 source:c:\users\home\documents\codeblocks - projects\cycle for and massif\queens crossing\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<cstdlib>
+

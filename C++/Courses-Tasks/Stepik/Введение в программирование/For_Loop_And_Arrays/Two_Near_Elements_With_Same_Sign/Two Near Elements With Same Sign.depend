@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508941065 source:c:\users\home\documents\codeblocks - projects\cycle for and massif\two near elements with same sign\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1512059128 source:c:\users\home\documents\programming_projects\c++\sortschool\g.Субботник\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<cmath>
+

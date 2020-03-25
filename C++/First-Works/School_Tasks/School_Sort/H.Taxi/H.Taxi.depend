@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1512055539 source:c:\users\home\documents\programming_projects\c++\sortschool\h.taxi\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<utility>
+

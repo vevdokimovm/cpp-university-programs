@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509800062 source:c:\users\home\documents\codeblocks - projects\while - loop\same numbers in a row\main.cpp
+	<iostream>
+	<vector>
+

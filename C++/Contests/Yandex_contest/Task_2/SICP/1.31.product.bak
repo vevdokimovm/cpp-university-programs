@@ -1,0 +1,31 @@
+#lang racket
+
+(define (inc x)
+  (+ x 1))
+
+(define (identity x) x)
+
+(define (product term a next b)
+  (define (iter a result)
+    (if (> a b)
+        result
+        (iter (next a) (* result (term a)))))
+  (iter a 1))
+
+(define (factorial a)
+  (product identity 1 inc a))
+
+(define (pi-sum a b)
+  (John-Wallis-method a b))
+
+(define (John-Wallis-method a b)
+  (define (pi-term x)
+    (if (= x 2) 
+        (/ (* 1.0 x) (+ x 1))
+        (/ (* 1.0 (+ x 2) (+ x 2)) (* (+ x 1) (+ x 2)))))
+  (define (pi-next x)
+    (if (= x 2)
+        2
+        (+ x 4)))
+  (when (< a 2) "Incorrect input")
+  (product pi-term a pi-next b))

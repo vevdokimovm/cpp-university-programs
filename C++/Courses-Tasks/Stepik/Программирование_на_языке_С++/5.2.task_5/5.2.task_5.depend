@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1529416267 source:c:\users\home\documents\programming_projects\c++\stepik_courses\Программирование_на_языке_С++\5.2.task_5\main.cpp
+	<cstddef>
+	<cstring>
+	<iostream>
+

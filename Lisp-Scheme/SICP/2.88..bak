@@ -1,0 +1,16 @@
+#lang racket
+
+(define (sub-poly p1 p2)
+  (if (same-variable? (variable p1) (variable p2))
+      (make-poly (variable p1)
+                 (sub-terms (term-list p1)
+                            (change-sign (term-list p2))))
+      (error "Многочлены от разных переменных -- SUB-POLY"
+             (list p1 p2))))
+
+(define (change-sign termlist)
+  (let ((term (car termlist)))
+    (cond ((null? termlist) null)
+          (else (cons (make-term (order term)
+                                 (- (coeff term)))
+                      (change-sign (cdr termlist)))))))

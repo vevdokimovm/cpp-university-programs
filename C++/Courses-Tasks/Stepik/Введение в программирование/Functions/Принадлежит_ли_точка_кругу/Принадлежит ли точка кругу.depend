@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510165140 source:c:\users\home\documents\codeblocks - projects\functions\Принадлежит ли точка кругу\main.cpp
+	<iostream>
+	<cmath>
+

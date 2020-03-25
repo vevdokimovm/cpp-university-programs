@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Home/Documents/Vasya-Laptop/Computer-Science/C++/Courses-Tasks/Stepik/Algorithms.Methods/segments/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+

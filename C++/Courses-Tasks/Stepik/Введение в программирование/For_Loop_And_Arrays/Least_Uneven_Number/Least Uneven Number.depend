@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508955123 source:c:\users\home\documents\codeblocks - projects\cycle for and massif\least uneven number\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+

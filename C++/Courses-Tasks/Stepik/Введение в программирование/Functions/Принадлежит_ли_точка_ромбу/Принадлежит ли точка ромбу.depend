@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510164651 source:c:\users\home\documents\codeblocks - projects\functions\Принадлежит ли точка ромбу\main.cpp
+	<iostream>
+	<cmath>
+

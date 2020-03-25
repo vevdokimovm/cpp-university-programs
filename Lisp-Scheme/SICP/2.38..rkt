@@ -1,0 +1,27 @@
+#lang racket
+
+(define (accumulate op initial seq)
+  (if (null? seq)
+      initial
+      (op (car seq)
+          (accumulate op initial (cdr seq)))))
+
+(define (accumulate-n op init seqs)
+  (if (null? (car seqs))
+      null
+      (cons (accumulate op init (map car seqs))
+            (accumulate-n op init (map cdr seqs)))))
+
+
+(define (fold-left op initial sequence)
+  (define (iter result rest)
+    (if (null? rest)
+        result
+        (iter (op result (car rest))
+              (cdr rest))))
+  (iter initial sequence))
+
+
+(define (module-sub a b)
+  (abs (- a b)))
+

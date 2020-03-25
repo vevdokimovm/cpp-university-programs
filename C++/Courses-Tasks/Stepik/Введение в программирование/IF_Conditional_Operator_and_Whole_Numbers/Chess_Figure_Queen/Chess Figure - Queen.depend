@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507913661 source:c:\users\home\documents\codeblocks - projects\chess figure - queen\main.cpp
+	<iostream>
+	<cmath>
+

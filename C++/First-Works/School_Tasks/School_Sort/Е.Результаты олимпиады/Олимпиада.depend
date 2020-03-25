@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1511723232 source:c:\users\home\documents\programming_projects\c++\stepik_course\algorithmsstl\Олимпиада\main.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<algorithm>
+
+1512143876 source:c:\users\home\documents\programming_projects\c++\school_sort\Е.Результаты олимпиады\main.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<algorithm>
+

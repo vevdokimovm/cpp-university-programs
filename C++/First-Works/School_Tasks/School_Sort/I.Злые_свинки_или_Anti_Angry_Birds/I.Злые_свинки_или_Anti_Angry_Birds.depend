@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1512158810 source:c:\users\home\documents\programming_projects\c++\school_sort\i.«лые_свинки_или_anti_angry_birds\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	<cmath>
+	<algorithm>
+

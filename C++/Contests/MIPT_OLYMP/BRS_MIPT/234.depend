@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1528023434 source:c:\users\home\desktop\234\main.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<algorithm>
+	<climits>
+	<iomanip>
+
+1528300123 source:c:\users\home\documents\programming_projects\c++\mipt_olymp\brs_mipt\main.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<algorithm>
+	<climits>
+	<iomanip>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535043196 source:c:\users\home\documents\vasya-laptop\computer-science\c++\informatics_mccme\#388.Костюмы.\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

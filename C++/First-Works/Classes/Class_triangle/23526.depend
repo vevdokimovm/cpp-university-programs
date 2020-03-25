@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1524302114 source:c:\users\arm0060\desktop\23526\main.cpp
+	<iostream>
+	<triangle.h>
+
+1524302045 source:c:\users\arm0060\desktop\23526\src\triangle.cpp
+	"triangle.h"
+	<iostream>
+	<cmath>
+
+1524301623 c:\users\arm0060\desktop\23526\include\triangle.h
+
+1524302116 source:c:\users\home\documents\programming_projects\23526\main.cpp
+	<iostream>
+	<triangle.h>
+
+1524301624 c:\users\home\documents\programming_projects\23526\include\triangle.h
+
+1524302046 source:c:\users\home\documents\programming_projects\23526\src\triangle.cpp
+	"triangle.h"
+	<iostream>
+	<cmath>
+

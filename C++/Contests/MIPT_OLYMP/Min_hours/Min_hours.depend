@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1527517730 source:c:\users\home\documents\programming_projects\c++\min_hours\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<utility>
+	<cmath>
+

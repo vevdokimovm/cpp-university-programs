@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1513697638 source:c:\users\home\documents\programming_projects\c++\dp\bolts\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<fstream>
+

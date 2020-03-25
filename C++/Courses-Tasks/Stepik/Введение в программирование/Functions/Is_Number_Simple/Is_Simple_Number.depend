@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510251197 source:c:\users\home\documents\codeblocks - projects\functions\is_simple_number\main.cpp
+	<iostream>
+	<cmath>
+

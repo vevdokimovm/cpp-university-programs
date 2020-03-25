@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1534269904 source:c:\users\home\desktop\long-sum-\main.cpp
+	<iostream>
+	<algorithm>
+

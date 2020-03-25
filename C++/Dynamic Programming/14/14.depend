@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1513962822 source:c:\users\home\documents\programming_projects\c++\dp\14\main.cpp
+	<iostream>
+	<vector>
+	<cstdio>
+	<cmath>
+

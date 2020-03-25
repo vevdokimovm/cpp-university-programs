@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511289530 source:c:\users\home\documents\programming_projects\c++\stepik_course\sets_and_dicts\writeoutsamenumbers\main.cpp
+	<iostream>
+	<set>
+

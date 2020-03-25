@@ -1,0 +1,3 @@
+C:/Users/Home/Documents/Vasya-Laptop/Computer-Science/C++/Courses-Tasks/Stepik/Algorithms.Methods/segments/cmake-build-debug/CMakeFiles/segments.dir
+C:/Users/Home/Documents/Vasya-Laptop/Computer-Science/C++/Courses-Tasks/Stepik/Algorithms.Methods/segments/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Home/Documents/Vasya-Laptop/Computer-Science/C++/Courses-Tasks/Stepik/Algorithms.Methods/segments/cmake-build-debug/CMakeFiles/rebuild_cache.dir

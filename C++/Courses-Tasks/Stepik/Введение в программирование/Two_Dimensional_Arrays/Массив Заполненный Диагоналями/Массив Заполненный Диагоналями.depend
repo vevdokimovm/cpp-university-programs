@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1509647122 source:c:\users\home\documents\codeblocks - projects\two - dimensional massifs\Массив Заполненный Диагоналями\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+
+1527606953 source:c:\users\home\documents\programming_projects\c++\stepik_courses\Введение в программирование\two_dimensional_arrays\Массив Заполненный Диагоналями\main.cpp
+	<iostream>
+	<iomanip>
+

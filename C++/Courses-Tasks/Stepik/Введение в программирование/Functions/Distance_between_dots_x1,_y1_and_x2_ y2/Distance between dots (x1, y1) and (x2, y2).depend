@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510159824 source:c:\users\home\documents\codeblocks - projects\functions\distance between dots (x1, y1) and (x2, y2)\main.cpp
+	<iostream>
+	<cmath>
+

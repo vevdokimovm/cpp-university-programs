@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1512559268 source:c:\users\home\documents\programming_projects\c++\foxford_course\lesson_2\task4\main.cpp
+	<iostream>
+	<cmath>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535208877 source:c:\users\home\documents\vasya-laptop\computer-science\c++\courses-tasks\stepik\algorithms.methods\unlimited-backpack\main.cpp
+	<iostream>
+	<iomanip>
+	<algorithm>
+
